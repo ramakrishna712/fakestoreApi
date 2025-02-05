@@ -1,0 +1,28 @@
+/* Make images smaller on mobile */
+.cart-img {
+    width: 50px;
+    height: auto;
+}
+
+/* Ensure table is responsive */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Adjust button sizes for better spacing */
+.btn-sm {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* Center the cart summary */
+.cart-summary {
+    margin-top: 20px;
+}
+
+/* Adjust title for smaller screens */
+@media (max-width: 768px) {
+    .cart-title {
+        font-size: 14px;
+    }
+}
